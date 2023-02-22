@@ -1,0 +1,23 @@
+ {% extends "admin.html.twig" %}
+  {% block body%}
+
+
+ <br>
+<div  style=" background-image: url('https://wallpaperaccess.com/full/6375161.jpg')">
+                    <div class="container">
+                        <div class="row">
+                            <divers class="col-md-12 text-center text-white">
+                                <h2>Ajouter Utilisateurs</h2>
+                                </divers
+
+ <br>
+
+    {{ include('user/_form.html.twig') }}
+
+<br>
+    <a href="{{ path('app_user_index') }}"  class="btn btn-primary">back to list</a>
+
+
+{% endblock %}
+ 
+

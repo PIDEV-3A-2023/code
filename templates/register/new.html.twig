@@ -1,0 +1,24 @@
+ {% extends "admin.html.twig" %}
+  {% block body%}
+
+ <br>
+<div  style=" background-image: url('https://i.postimg.cc/rsbLrSfM/Poly-BG-Grad-1-0-1.png'); background-size:cover;">
+                    <div class="container">
+                        <div class="row">
+                            <divers class="col-md-12 text-center text-white">
+                                <h2 style="border-bottom:2px solid white;padding-bottom:5px;">Fill to the forms to create your account
+</h2>
+                                </divers
+
+ <br>
+
+
+
+    {{ include('register/_form.html.twig') }}
+
+    <a href="{{ path('app_sign_up_index') }}"  </a>
+
+
+{% endblock %}
+ 
+
